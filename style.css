@@ -58,8 +58,7 @@ input{
     justify-content: space-between;
 }
 .btn-field button{
-    /* padding-top: 10px;
-    padding-left: 20px; */
+   
     flex-basis: 48%;
     background: #3c00a0;
     color:#fff;
@@ -69,6 +68,19 @@ input{
     outline: 0;
     cursor:pointer;
     transition: background 1s;
+}
+.outsideBtn{
+    
+    padding: 20px 25px 30px;
+    display: flex;
+    
+}
+.outsideBtn button{
+    padding : 15px 10px 15px;
+    border-radius: 15px;
+    color:black;
+    background-color: #eaeaea;
+    
 }
 p{
     text-align: left;

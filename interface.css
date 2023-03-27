@@ -33,15 +33,19 @@ font-family:'Times New Roman', Times, serif;
  
 }
 .container2{
-    background-color:azure;
+    background-color:rgb(240, 255, 255);
     width: 50%;
     height: 500px;
     text-align: center;
-    padding: 50px;
+    /* padding: 50px; */
     box-shadow: 10px 5px 20px 	#585858;
     color: white;
     border-radius: 25px 25px 25px 25px;
+    
 
+    max-width: 450px;
+    border-radius: 40px;
+    padding: 50px 60px 70px;
 }
 .pp{
     padding-top: 30px;
@@ -75,3 +79,20 @@ font-family:'Times New Roman', Times, serif;
     background-color: #eaeaea;
     
 }
+
+
+ h1{
+    font-size : 30px;
+    margin-bottom : 60px;
+    color:#3c00a0;
+}
+.input-group{
+    height: 200px;
+}
+.input-field i{
+    padding: 15px;
+    margin-left: 15px;
+    color:#282222;
+}
+
+

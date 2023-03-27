@@ -3,7 +3,7 @@
     <head>
         <title>sign up form</title>
         <link rel="stylesheet" href="style.css">
-       
+        <link rel="html" href = "interface.html">
         <script src="https://kit.fontawesome.com/6f37a0ebb1.js" crossorigin="anonymous"></script>
     </head>
     <body>
@@ -38,7 +38,10 @@
             let createBtn = document.getElementById("createBtn");
             let signinBtn = document.getElementById("signinBtn");
             let title = document.getElementById("title");
-        
+           
+            document.getElementById("createBtn").onclick = function(){
+                location.href = "interface.html";
+            };
             signinBtn.onclick = function(){
                 
                 createBtn.classList.add("disable");
@@ -50,7 +53,7 @@
                 createBtn.classList.remove("disable");
             }
         </script>
-        
+
         <div id="copy">&copy;DarkCoders</div>
     </body>
 </html>

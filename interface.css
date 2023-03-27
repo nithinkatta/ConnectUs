@@ -96,3 +96,10 @@ font-family:'Times New Roman', Times, serif;
 }
 
 
+#copy{
+    position: fixed;
+    bottom: 2.5%;
+    left : 50%;
+    transform: translate(-50%);
+    color:white;
+}

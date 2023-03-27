@@ -8,6 +8,7 @@
     width: 90%;
     max-width: 450px;
     position: absolute;
+    border-radius: 40px;
     top : 50%;
     left : 50%;
     transform : translate(-50%,-50%);
@@ -78,7 +79,7 @@ p a{
     color:#3c00a0;
 }
 .input-group{
-    height: 250px;
+    height: 200px;
 }
 button.disable{
     background-color: #eaeaea;

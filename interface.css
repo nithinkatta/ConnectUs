@@ -23,8 +23,14 @@ body{
 
 }
 
+.click {
+    font-size: large;
+    border-radius: 10px;
+
+}
 .click:hover{
 color: crimson;
+
 }
 .click{
     

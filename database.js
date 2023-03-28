@@ -1,4 +1,4 @@
-const mysql = require('mysql2');
+const mysql = require('MySQL80');
 
 const connection = mysql.createConnection({
     host: 'localhost',
@@ -6,4 +6,8 @@ const connection = mysql.createConnection({
     password: 'Nithin281',
     database: 'mydatabase'
   });
+
+  connection.query('SELECT * FROM mytable',(err,results)=>{if(err) throw err;
+  console.log(results)});
+  connection.end();
   

@@ -1,0 +1,85 @@
+.colours
+{
+    background-color: rgb(36, 95, 95);
+}
+body,html{
+    height: 100%;
+}
+.bg{
+   background-image: url("bg.jpg");
+    
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  footer {
+    padding: 25px;
+    background-color: #76afe8;
+    color: #fff;
+    display: flex;
+    justify-content: right;
+}
+ul{
+    list-style-type:none;
+    color: black;
+}
+.aboutus
+{
+    margin-left: 100px;
+    font-size: larger;
+}
+.images
+{
+    display: block;
+    margin: auto;
+}
+h2{
+    color:white;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    margin-left: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.cardcolor1
+{
+    background-color: rgb(142, 246, 241);
+}
+.cardcolor2
+{
+    background-color: rgb(124, 242, 242);
+}
+.logins
+{
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.p1
+{
+    font-weight: bold;
+}
+.fh3
+{
+    text-shadow: 2px 2px;
+}
+.caption
+{
+    color: white;
+}
+.fimage
+{
+   margin-left: auto;
+    width: 50px;
+    height: 50px;
+}
+
+#copy{
+    position: fixed;
+    bottom: 2.5%;
+    left : 50%;
+    transform: translate(-50%);
+    color:white;
+}

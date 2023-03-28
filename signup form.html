@@ -3,20 +3,26 @@
     <head>
         <title>sign up form</title>
         <link rel="stylesheet" href="style.css">
-       
+        <link rel="html" href = "interface.html">
+        <link rel="css" href = "interface.css">
         <script src="https://kit.fontawesome.com/6f37a0ebb1.js" crossorigin="anonymous"></script>
     </head>
     <body>
-        <script src="javascript"></script>
+
         <div class="container">
+            <div class="outsideBtn" >
+                <a href="1.html">
+                <button >Back</button>
+                </a>
+            </div>
         <div class = "form-box" >
             <h1 id="title">Sign In</h1>
-            <form action="submit">
+            <form action="main.html">
                 <div class="input-group">
                
                     <div class="input-field">
                         <i class="fa-solid fa-envelope"></i>
-                        <input type="email" placeholder="Email">
+                        <input type="email" placeholder="Email" >
                     </div>
                 
                     <div class="input-field">
@@ -27,8 +33,11 @@
                 </div>
                 
                 <div class="btn-field">
-                    <button type="button" class="disable" id="createBtn" >Create</button>
-                    <button type="button" id="signinBtn">Sign in</button>
+                   
+                    
+                    <button type="submit" formaction="interface.html" class="disable" id="createBtn">Create</button>
+                    
+                    <button type="submit" id="signinBtn">Sign in</button>
                 </div>
             </form>
         </div>
@@ -38,17 +47,23 @@
             let createBtn = document.getElementById("createBtn");
             let signinBtn = document.getElementById("signinBtn");
             let title = document.getElementById("title");
-        
+           
+            
+           
             signinBtn.onclick = function(){
-                
                 createBtn.classList.add("disable");
                 signinBtn.classList.remove("disable");
             }
-            createBtn.onclick = function(){
+            // createBtn.onclick = function(){
                 
-                signinBtn.classList.add("disable");
-                createBtn.classList.remove("disable");
-            }
+            //     signinBtn.classList.add("disable");
+            //     createBtn.classList.remove("disable");
+            // }
         </script>
+
+        <div id="copy">&copy;DarkCoders</div>
+
+
+        
     </body>
 </html>

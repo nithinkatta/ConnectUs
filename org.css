@@ -1,0 +1,233 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-position:center;
+    background-size:cover;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: linear-gradient(rgb(0,0,50,0.8),rgba(0,0,50,0.8));
+    color:rgb(252, 249, 249);
+    
+}
+
+.regform{
+    width:100%;
+    margin:auto;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    padding: 10px 0px 30px 0px;
+    color:aliceblue;
+}
+h1{
+    font-size:75px;
+}
+#skills{
+    display:block;
+}
+.area-code{
+    color: rgb(248, 249, 250);
+}
+h2{
+    margin-left: 25px;
+}
+.main{
+    width:800px;
+    margin:auto;
+ 
+}
+form{
+    
+    padding:10px;
+}
+#name{
+    width:100%;
+    height:100px;
+    color: aliceblue;
+}
+.name{
+    margin-left: 25px;
+    margin-top: 30px;
+    width:125px;
+    color:rgb(250, 249, 249);
+    font-weight: 700;
+    font-size: 18px;
+}
+.firstname{
+    left:200px;
+    top:-37px;
+    position: relative;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+}
+.lastname{
+    left:417px;
+    top:-80px;
+    position: relative;
+    line-height: 40px;
+    border-radius: 6px;
+    padding: 0 22px;
+    font-size: 16px;
+    color:rgb(12, 12, 12);
+    margin-top: 50px;
+}
+.name{
+    color: rgb(250, 250, 250);
+}
+.firstlabel{
+    position: relative;
+    color: #030303;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top:-45px;
+}
+.lastlabel{
+    position: relative;
+    color: #121111;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 203px;
+    top:-45px;
+}
+.company{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    width:532px;
+    border-radius: 6px ;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+}
+.email{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    width:480px;
+    border-radius: 6px ;
+    padding: 0 px;
+    font-size: 16px;
+    color:#555;
+
+}
+.org{
+    position: relative;
+    left:350px;
+    top:-37px;
+    line-height:40px;
+    width:480px;
+    border-radius: 6px ;
+    padding: 0 px;
+    font-size: 16px;
+    color:#555;
+
+}
+.code{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    width:95px;
+    border-radius: 6px ;
+    padding: 0 22px;
+    font-size: 16px;
+    color:rgb(0, 5, 8);
+}
+.number{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    width:260px;
+    border-radius: 6px ;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+}
+.area-code{
+    position:relative;
+    color:rgb(1, 10, 18);
+    text-transform: capitalize;
+    font-size:16px;
+    left:54px;
+    top:-4px;
+}
+h3{
+    padding: 15px;
+}
+.myin{
+    height: 200px;
+    width: 600px;
+    border-radius: 25px; 
+    box-shadow: 10px 5px 20px #900C3F;
+}
+.Skills{
+    display: block;
+    margin-left: 180px;
+
+}
+.phone-number{
+    position:relative;
+    color:aliceblue;
+    text-transform: capitalize;
+    font-size:16px;
+    left:-100px;
+    top:-2px;
+
+}
+.option{
+    position: relative;
+    left:200px;
+    top:-37px;
+    line-height:40px;
+    width:532px;
+    height:40px;
+    border-radius: 6px ;
+    padding: 0 22px;
+    font-size: 16px;
+    color:#555;
+    outline:none;
+    overflow:hidden;
+}
+.option option{
+    font-size:20px;
+}
+.radio{
+    display: inline-block;
+    padding-right:70px;
+    font-size: 25px;
+    margin-left:25px;
+    margin-top:15px;
+    color:white;
+}
+.radio_input{
+    width:20px;
+    height:20px;
+    border-radius: 50%;
+    cursor:pointer;
+    outline:none;
+}
+button{
+    display: block;
+    background-color: #3baf9f;
+    text-align: center;
+    margin:20px 700px 0px 20px;
+    padding:14px 110px;
+    color:white;
+    cursor:pointer;
+    transition:0.25px;
+    border-radius: 12px;
+    border:2px solid #366473;
+    outline:none;
+}
+button:hover{
+    background-color: #5290f5;
+}
+.input{
+    margin-top: 100px;
+}

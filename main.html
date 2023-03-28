@@ -5,36 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Nexus</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
-
+    
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
     <link rel="stylesheet" href="./main.css">
     </head>
 <body>
-<h1> Hello Nexus User!!!</h1>
+<h1 class="headings"> Hello Nexus User!!!</h1>
 <marquee class="mar-que">
     <i class="fa-solid fa-stars" style="color: #f37430;"></i>
-    -Google is hiring for Software Developer role please <a href="https://www.bing.com/ck/a?!&&p=4826b6d81e456c11JmltdHM9MTY3OTg3NTIwMCZpZ3VpZD0wMThmZjZhYy0zNDYzLTYwNjctMGU5MC1lNDgzMzVjZTYxYzkmaW5zaWQ9NTE4OQ&ptn=3&hsh=3&fclid=018ff6ac-3463-6067-0e90-e48335ce61c9&psq=google+carres&u=a1aHR0cHM6Ly9jYXJlZXJzLmdvb2dsZS5jb20v&ntb=1">click here </a>to apply.    -TCS is providing scholarship for all UG students <a href="https://tcs.dosje.gov.in/">click here</a></marquee>
-<h3>Oppurtunities Available </h3>
-
+    <p class="headings">-Google is hiring for Software Developer role please <a href="https://www.bing.com/ck/a?!&&p=4826b6d81e456c11JmltdHM9MTY3OTg3NTIwMCZpZ3VpZD0wMThmZjZhYy0zNDYzLTYwNjctMGU5MC1lNDgzMzVjZTYxYzkmaW5zaWQ9NTE4OQ&ptn=3&hsh=3&fclid=018ff6ac-3463-6067-0e90-e48335ce61c9&psq=google+carres&u=a1aHR0cHM6Ly9jYXJlZXJzLmdvb2dsZS5jb20v&ntb=1">click here </a>to apply </p>  <p class="headings"> -TCS is providing scholarship for all UG students <a href="https://tcs.dosje.gov.in/">click here</a> to apply</marquee>
+<h3 class="headings">Oppurtunities Available </h3>
 <div class="top-two">
     <div class="container2" >
         <h2><b>Trending skills !!</b></h2>
         <ul>
-            <li> <h4>ReactJs</h4></li>
-            <li> <h4>Flutter</h4></li>
-            <li> <h4>Angular</h4></li>
-            <li> <h4>Django</h4></li>
-            <li> <h4>Fire base</h4></li>
-            <li> <h4>Java script</h4></li>
-            <li> <h4>MongoDB</h4></li>
+            <li> <a href="https://react.dev/" class="links">Reactjs</a></li>
+            <li> <a href="https://flutter.dev/" class="links">Flutter</a></li>
+            <li> <a href="https://angular.io/" class="links">Angular</a></li>
+            <li> <a href="https://www.djangoproject.com/" class="links">DJango</a></li>
+            <li> <a href="https://firebase.google.com/" class="links">Firebase</a></li>
+            <li> <a href="https://javascript.info/" class="links">Javascript</a></li>
+            <li> <a href="https://www.mongodb.com/" class="links">MongoDb</a></li>
         </ul>
 
-        <h5><b>It's time to upgarde your    skill set</b></h4>
+        <h5 class="tag"><b>It's time to upgarde your    skill set</b></h4>
         
     </div>
 
     <div class="scholar-div">
         <h2><strong><ins>Scholarship section</ins></strong></h2>
+        <marquee behavior="scroll" direction="Up" onmouseover="this.stop();" onmouseout="this.start();">
+        <p>A scholarship is a form of financial aid awarded to students for further education. Generally, scholarships
+             are awarded based on a set of criteria such as 
+            academic merit, diversity and inclusion, athletic skill, and financial need.
+            Scholarship criteria usually reflect the values and goals of the donor of the award, and
+             while scholarship recipients are not required to repay scholarships, the awards may require 
+             that the recipient continue to meet certain requirements during their period of support, such 
+             maintaining a minimum grade point average or engaging in a certain activity
+             (e.g., playing on a school sports team for athletic scholarship holders)</p>
+             National ScholarshipPortal   <a href="https://scholarships.gov.in/" target="_balnk">Click Here</a><br>
+             Guide lines <a href="https://scholarships.gov.in/fresh/newstdRegfrmInstruction" target="_blank">Click here</a>
+            </marquee>
         <div>
            
         </div>
@@ -45,45 +58,151 @@
     <div class="container1">
         <p class="company1"><img src="https://img.freepik.com/free-icon/search_318-265146.jpg" height="50px"></p>
         <h2  class="company">     Google</h3>
-        <p class="company2">SDE</p>
-        <a href="https://careers.google.com/jobs/results/?distance=50&has_remote=false&hl=en_US&jlo=en_US&location=India&q=sde">
-        <button>Enroll Now</button>
-        </a>
+        <p class="company2">Job Title - SDE</p>
+        <button class="btn btn-primary bg-white text-primary m-4" data-bs-target="#content" data-bs-toggle="modal">
+            Enroll Now</button>
+        <div class="modal" id="content">
+                <div class="modal-dialog modal-dialog-centered">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <p class="cnames">google</p>
+                            <button class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>Google LLC is an American multinational technology company focusing on online advertising, search engine 
+                                technology, cloud computing, computer software, 
+                                quantum computing, e-commerce, artificial intelligence, and consumer electronics.</p>
+                                 <a href="https://careers.google.com/" target="_blank">Click here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
 
+
+        
+          
     </div>
         
         <div class="container1">
             <p class="company1"><img src="https://s3.amazonaws.com/giveffect-assets/system/photos/teams/large/11259x8fd2df1c468b99d490fd3700a173f2921fa83a8c.jpg?1553009193" height="70px"></p>
             <h2  class="company">   JP Morgan</h3>
             <p class="company2">SDE</p>
-            <button>Enroll Now</button>
+            <button class="btn btn-primary bg-white text-primary m-4" data-bs-target="#content1" data-bs-toggle="modal">
+                Check Now</button>
+            <div class="modal" id="content1">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="cnames">JP Morgan & Chase</p>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>We are combining our business and policy expertise, sustainable business practices, data, capital and
+                                     global presence to advance solutions that create inclusive economic growth.</p>
+                                     <a href="https://www.jpmorganchase.com/" target="_blank">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
         <div class="container1">
-            <p class="company1"><img src="https://pixlok.com/wp-content/uploads/2021/05/Infosys_logo-1024x1024.jpg" height="70px"></p>
+            <p class="company1"><img src="https://pixlok.com/wp-content/uploads/2021/05/Infosys_logo-1024x1024.jpg" height="60px"></p>
             <h2  class="company">   Infosys</h3>
-            <p class="company2">SDE</p>
-            <button>Enroll Now</button>
+            <p class="company2">Job Title - SDE</p>
+            <button class="btn btn-primary bg-white text-primary m-4" data-bs-target="#content2" data-bs-toggle="modal">
+                Register Now</button>
+            <div class="modal" id="content2">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="cnames">Infosys</p>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>amplify human potential and create the next opportunity for people, businesses and communities</p>
+                                     <a href="https://www.infosys.com/" target="_blank">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         
         </div>
         <div class="container1">
             <p class="company1"><img src="https://dslntlv9vhjr4.cloudfront.net/bowls_images/rJ0K9mfuBHTMe.jpg" height="90px"></p>
             <h2  class="company"> TCS</h3>
-            <p class="company2">SDE</p>
-            <button>Enroll Now</button>
+            <p class="company2">Job Title - SDE</p>
+            <button class="btn btn-primary bg-white text-primary m-4" data-bs-target="#content3" data-bs-toggle="modal">
+                Know More</button>
+            <div class="modal" id="content3">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="cnames">TCS</p>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>A purpose-led organization that is building a meaningful future through innovation, technology,
+                                     and collective knowledge. We're #BuildingOnBelief. A part of the Tata group, India's largest
+                                      multinational business group.</p>
+                                     <a href="https://www.tcs.com/" target="_blank">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
         </div>
         <div class="container1">
             <p class="company1"><img src="https://www2.deloitte.com/content/dam/Deloitte/mx/Images/promo_images/General/deloitte-logo-promo.jpg" height="70px"></p>
             <h2  class="company">     Deloitte</h3>
-            <p class="company2">SDE</p>
-            <button>Enroll Now</button>    
+            <p class="company2">Job Title - SDE</p>
+            <button class="btn btn-primary bg-white text-primary m-4" data-bs-target="#content4" data-bs-toggle="modal">
+                Explore</button>
+            <div class="modal" id="content4">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <p class="cnames">Deloitte</p>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Deloitte drives progress. Our firms around the world help clients become leaders wherever they choose to 
+                                    compete. Deloitte invests in outstanding people of diverse 
+                                    talents and backgrounds and empowers them to achieve more than they could elsewhere.</p>
+                                     <a href="https://www2.deloitte.com/us/en.html" target="_blank">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
         </div>
         <div class="container1">
             <p class="company1"><img src="https://media-exp1.licdn.com/dms/image/C4D0BAQGQJSitmomxOA/company-logo_200_200/0/1615371680421?e=2147483647&v=beta&t=yDxjEZfSnejdp13xmRT8bJOrUA0IiAl_5UTcZ6D7se4" height="70px"></p>
             <h2  class="company">     CIVO</h3>                
-            <p class="company2">SDE</p>
-            <button>Enroll Now</button>        
+            <p class="company2">Job Title - SDE</p>
+            <button class="btn btn-primary bg-white text-primary m-4" data-bs-target="#content5" data-bs-toggle="modal">
+                Further <Details></Details></button>
+            <div class="modal" id="content">
+                    <div class="modal-dialog modal-dialog-centered">
+                        <div class="modal-content5">
+                            <div class="modal-header">
+                                <p class="cnames">Civo</p>
+                                <button class="btn-close" data-bs-dismiss="modal"></button>
+                            </div>
+                            <div class="modal-body">
+                                <p>Civo's vision is simple. To create a flexible cloud platform created by developers, for developers. 
+                                    We think you should spend less of your time managing environments and hosting
+                                     platforms, and more time coding - after all, that's what we always wanted.</p>
+                                     <a href="https://www.civo.com/" target="_blank">Click here</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>       
         </div>
 </div>
 <div id="copy">&copy;DarkCoders</div>
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
 </body>
 </html>

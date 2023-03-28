@@ -1,8 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Multi&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
 .container1{
-    height: 350px;
+    height: 250px;
     width: 300px;
     margin-left: 20px;
-    background-color:rgb(248, 248, 248);
+    background-color:rgb(195, 236, 249);
 
     margin-top: 30px;
     padding: 20px;
@@ -10,8 +12,26 @@
     border-radius: 25px 25px 25px 25px;
 
 }
+.cnames
+{
+    font-size: large;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.headings
+{
+    font-family:'Muli',sans-serif;
+    font-weight: 200;
+}
+.links
+{
+    font-size: medium;
+    font-weight: bold;
+}
+
 .container2{
-    height: 400px;
+    height: 350px;
     width: 300px;
     margin-left: 20px;
     background-color:rgb(248, 248, 248);
@@ -35,8 +55,13 @@ h5{
     display: inline;
 }
 .company2{
-    padding-left: 100px;
-    display:block;
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: large;
+    font-weight: bold;
+    
 
 }
 .containerlist{
@@ -51,7 +76,7 @@ button{
     background-color:beige;
 }
 body{
-    background-image: linear-gradient(rgb(0,0,50,0.8),rgba(0,0,50,0.8)),url(bgpic.jpg);
+    background-color: rgb(33, 73, 73);
     font-family:'Times New Roman', Times, serif;
     
  
@@ -72,7 +97,7 @@ h1,h3{
     width: 650px;
     margin-left: 30px;
     background-color:rgb(248, 248, 248);
-
+    
     margin-top: 30px;
     padding: 20px;
     box-shadow: 10px 5px 20px 	#585858;
